@@ -1,0 +1,32 @@
+<HTML>
+    <h1>Formulario</h1>
+            <Script>
+            function salude() {
+                const name=document.getElementById("nombre").value;
+                alert("Hola"+","+name+ "Buenas tardes")
+                }
+            function Aceptar(){
+               
+                var Resultado=document.getElementById("aceptar").value
+                alert("Su resultado es:"+Resultado)
+                }
+        
+            </Script>
+    <B>Nombre</B><input type="text" id = "nombre">
+    <button onclick="salude()">Saludos</button>
+    <h1>Transformacion de ESCALADO<h1>
+        <p>Vector original  <input id="c_f" size="8"<p/>
+        <br/> Coordenada inicial <input id="c_i" size="10"<br/> <!--// <br/>separar  -->
+        <p> x <input id="x" size ="8"<p/>
+        <p> y <input id="y" size ="8"<p/>
+        <p> z <input id="z" size ="8"<p/>
+        <br/> Coordenada final <input id="c_f" size="8"<br/>
+        <p> x <input id="x" size ="8"<p/>
+        <p> y <input id="y" size ="8"<p/>
+         <p> z <input id="z" size ="8"<p/>
+        <p> Coordenada Translacion <input id="c_f" size="8"<p> <!--// <p/>Parrafo  -->
+        <p> x <input id="x" size ="8"<p/>
+        <p> y <input id="y" size ="8"<p/>
+        <p> z <input id="z" size ="8"<p/>
+            <button onclick="Aceptar()">Aceptar</button>
+    </HTML>
